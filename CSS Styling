@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alyssa Schneider</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Alyssa Schneider</h1>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <img src="https://cdn.discordapp.com/attachments/1182627661625950299/1522713720466444379/Socials_Icon.jpg?ex=6a497929&is=6a4827a9&hm=bf3577eef7cb315b43f442b000fa909f2629ea07550001926fedee4f452a660f&"
+         alt="Profile Picture">
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>Hello! I am an Animation and Visualization major currently studying at UCF.</p>
+
+        <p>
+            I am set to graduate with my Bachelor's in <strong>2029</strong>.
+            I hope to one day work for an animation company like
+            <strong>Glitch</strong> as a
+            <mark><em>character designer and animator.</em></mark>
+        </p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Skills and Hobbies</h2>
+
+        <ul>
+            <li>Crocheting</li>
+            <li>Pottery</li>
+            <li>Animation</li>
+            <li>Painting</li>
+            <li>Sketching</li>
+        </ul>
+    </section>
+
+    <section id="interests">
+        <h2>Interests</h2>
+
+        <ul>
+            <li>Anime</li>
+            <li>Video Games</li>
+            <li>Swimming</li>
+            <li>Softball</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>Email: al310458@ucf.edu</p>
+
+        <p>
+            <a href="https://www.instagram.com/qr/" target="_blank">Instagram</a>
+        </p>
+
+        <p>
+            <a href="https://pin.it/1Jneci0rW" target="_blank">Pinterest</a>
+        </p>
+    </section>
+
+    <footer>
+        &copy; 2026 Alyssa Schneider
+    </footer>
+
+</div>
+
+</body>
+
+</html>
