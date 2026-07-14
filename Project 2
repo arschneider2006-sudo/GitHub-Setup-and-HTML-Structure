@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alyssa Schneider Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Alyssa Schneider</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+<img src="Socials_Icon.jpg" alt="Pixel Art Portrait">
+
+<div class="hero-text">
+<h2>Animation & Visualization Student</h2>
+
+<p>
+Welcome to my portfolio! I'm a student who enjoys creating digital art,
+animation, illustrations, and interactive experiences.
+</p>
+
+<a href="#projects" class="button">
+View My Work
+</a>
+
+</div>
+
+</section>
+
+<section id="about" class="card">
+
+<h2>About Me</h2>
+
+<p>
+I'm currently studying Animation and Visualization while learning HTML,
+CSS, Adobe Illustrator, Photoshop, and digital design.
+My goal is to become a character designer and animator.
+</p>
+
+</section>
+
+<section id="skills" class="card">
+
+<h2>Skills</h2>
+
+<ul>
+<li>Digital Illustration</li>
+<li>Adobe Illustrator</li>
+<li>Adobe Photoshop</li>
+<li>HTML & CSS</li>
+<li>Character Design</li>
+<li>Animation</li>
+</ul>
+
+</section>
+
+<section id="projects" class="card">
+
+<h2>Featured Projects</h2>
+
+<div class="cards">
+
+<div class="project">
+<h3>Commissions</h3>
+<p>Custom illustrations and designs for clients.</p>
+</div>
+
+<div class="project">
+<h3>Character Art</h3>
+<p>Original illustrations and concept art.</p>
+</div>
+
+<div class="project">
+<h3>Classwork</h3>
+<p>UCF Animation and Visualization track projects.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="card">
+
+<h2>Contact</h2>
+
+<p>
+Interested in my work?
+</p>
+
+<a href="mailto:Arschneider2006@gmail.com" class="button">
+Email Me
+</a>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>
+© 2026 Alyssa Schneider
+</p>
+
+<p>
+Profile artwork created by Alyssa Schneider.
+Website designed for educational purposes.
+</p>
+
+</footer>
+
+</body>
+
+</html>
