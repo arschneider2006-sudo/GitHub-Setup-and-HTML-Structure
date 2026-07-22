@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien Abduction Memory Mission</title>
+
+    <link rel="stylesheet" href="CC.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background Stars -->
+    <div class="stars"></div>
+
+    <!-- Header -->
+    <header>
+        <h1>👽 Alien Abduction Memory Mission 🛸</h1>
+        <p>Help the alien complete its mission before humans discover the UFO!</p>
+    </header>
+
+    <!-- Mission Briefing -->
+    <section class="briefing">
+        <h2>Mission Briefing</h2>
+
+        <p>
+            Your mission is to help an alien secretly abduct every cow by finding
+            matching pairs hidden beneath the cards.
+        </p>
+
+        <p>
+            Be careful! Two Human cards are hidden somewhere in the deck.
+            If humans spot the alien twice, the mission fails!
+        </p>
+    </section>
+
+    <!-- Instructions -->
+    <section class="instructions">
+        <h2>Instructions</h2>
+
+        <ul>
+            <li>Click two cards to flip them over.</li>
+            <li>Matching cards stay face-up.</li>
+            <li>Non-matching cards flip back over.</li>
+            <li>Human cards do NOT have a matching pair.</li>
+            <li>Each Human card revealed counts as one sighting.</li>
+            <li>After two sightings, the mission fails.</li>
+            <li>Find all 8 matching pairs before two sightings to win.</li>
+        </ul>
+    </section>
+
+    <!-- Scoreboard -->
+    <section class="scoreboard">
+
+        <div class="score-box">
+            <h3>Matches</h3>
+            <span id="matches">0</span>/8
+        </div>
+
+        <div class="score-box">
+            <h3>Moves</h3>
+            <span id="moves">0</span>
+        </div>
+
+        <div class="score-box warning">
+            <h3>Human Sightings</h3>
+            <span id="sightings">0</span>/2
+        </div>
+
+    </section>
+
+    <!-- Game Message -->
+    <section class="game-message">
+        <h2 id="message">Mission in Progress...</h2>
+    </section>
+
+    <!-- Game Board -->
+    <main>
+
+        <div class="game-board" id="gameBoard">
+
+            <!--
+                Cards are generated with JavaScript.
+                Total Cards:
+                - 16 Matching Cards (8 Pairs)
+                - 2 Human Cards
+                = 18 Cards
+            -->
+
+        </div>
+
+    </main>
+
+    <!-- Restart Button -->
+    <section class="controls">
+
+        <button id="restartBtn">
+            Restart Mission
+        </button>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            Alien Abduction Memory Mission |
+            HTML • CSS • JavaScript
+        </p>
+
+    </footer>
+
+    <script src="CC.js"></script>
+
+</body>
+</html>
